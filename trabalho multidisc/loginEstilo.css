@@ -1,0 +1,122 @@
+#caixa{
+	background:white;
+	border-radius:10px;
+	height:30px;
+	border:4px solid;
+}
+#caixa:focus {
+	font-size:medium;
+	font-family: Arial
+	background:white;
+	border: 3px solid;
+	color:black;
+	box-shadow: 0 0 30px red;	
+}
+#botao{
+	height:45px;
+	width:150px;
+	background:white;
+	color:black;
+	font-style: arial;
+	font-size: medium;
+	border:2px solid;
+	box-shadow: 0 0 6px;
+	border-radius:100px;
+}
+#botao:hover{
+	font-size:xx-large;
+	font-family:arial;
+	background:black;
+	color:red;
+	box-shadow: 0 0 30px red;
+	
+}
+h1{
+	background:black;
+	font-family:arial;
+	color:white;
+	font-style:italic;
+	font-size:40px;
+	text-align:center;
+}
+h1:hover{
+	background:white;
+	font-family:arial;
+	color:black;
+	font-style:italic;
+	font-size:40px;
+	text-align:center;
+}
+body{
+	
+	
+	
+}
+.esquerda_superior{
+	background-color:green;
+	border:solid 5px;
+	border-color:white;
+	height:300px;
+	width:300px;
+	position:fixed;
+	top:0px;
+	left:0px;
+	
+	
+	
+}
+.esquerda_inferior{
+	background-color:red;
+	border:solid 5px;
+	border-color:white;
+	height:300px;
+	width:300px;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	
+	
+	
+}
+
+.direita_superior{
+	background-color:black;
+	border:solid 5px;
+	border-color:white;
+	height:300px;
+	width:300px;
+	position:fixed;
+	top:0px;
+	right:0px;
+	
+	
+	
+}
+
+.direita_inferior{
+	background-color:yellow;
+	border:solid 5px;
+	border-color:white;
+	height:300px;
+	width:300px;
+	position:fixed;
+	bottom:0px;
+	right:0px;
+	
+	
+	
+}
+
+.centro{
+	background-color:white;
+	border:solid 5px;
+	border-color:white;
+	height:300px;
+	width:300px;
+	position:fixed;
+	margin:auto;
+	top:0px;
+	right:0px;
+	left:0px;
+	bottom:0px;
+}
