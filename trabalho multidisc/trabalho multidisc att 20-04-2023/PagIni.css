@@ -1,0 +1,250 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#barra{
+    font: 20px;
+    border-radius:20px;
+    width:800px;
+    height:40px;
+    top:35px;
+    left:24%;
+    position:fixed;
+}
+.pesquisa{
+    width:435px;
+    height:28px;
+    top:100px;
+    left:0px;
+    right:0px;
+    border-radius:10px;
+    margin:auto;
+    position:fixed:
+    background-color:green;
+}
+.entrar{
+    width:75px;
+    height:75px;
+    border-radius:37.5px;
+    right:100px;
+    top:10px;
+    position:fixed;
+}
+.ret {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    width:100%;
+    height:100px;
+    background-color:#8CE77D;
+    left:0px;
+    z-index: 1;
+}
+.caixaHome{
+top:100px;
+left:0%;
+text-align:center;
+box-sizing: border-box;
+position: absolute;
+width:20%;
+height: 61px;
+background: #8CE77D;
+border: 5px solid #FFFFFF;
+}
+.caixaPopulares{
+top:100px;
+box-sizing: border-box;
+position: absolute;
+text-align:center;
+left:20%;
+width: 20%;
+height: 61px;
+background: #8CE77D;
+border: 5px solid #FFFFFF;
+}
+.caixaCategorias{
+top:100px;
+box-sizing: border-box;
+position: absolute;
+text-align:center;
+left:40%;
+width: 20%;
+height: 61px;
+background: #8CE77D;
+border: 5px solid #FFFFFF;
+}
+.promocoes{
+top:100px;
+box-sizing: border-box;
+position: absolute;
+text-align:center;
+left:60%;
+width: 20%;
+height: 61px;
+background: #8CE77D;
+border: 5px solid #FFFFFF;
+}
+.caixaFale{
+top:100px;
+box-sizing: border-box;
+position: absolute;
+text-align:center; /*falta centralizar na box*/
+left:80%;
+width: 20%;
+height: 61px;
+background: #8CE77D;
+border: 5px solid #FFFFFF;
+}
+.font{
+position: absolute;
+width: 158px;
+height: 21px;
+
+font-family: 'Cambo';
+font-style: normal;
+font-weight: 400px;
+font-size: 20px;
+line-height: 50px;
+text-align: center;
+
+color: #FFFFFF;
+}
+#circulos1 {
+    position: absolute;
+top:600px;
+left:10%;
+width: 108px;
+height: 108px;
+border-radius:54px;
+background-color: #8CE67D;
+text-align: center;
+align-items: center;
+}
+#circulos2 {
+    position: absolute;
+top:600px;
+left:30%;
+width: 108px;
+height: 108px;
+border-radius:54px;
+background-color: #8CE67D;
+}
+#circulos3 {
+    position: absolute;
+top:600px;
+left:60%;
+width: 108px;
+height: 108px;
+border-radius:54px;
+background-color: #8CE67D;
+}
+#circulos4 {
+    position: absolute;
+top:600px;
+left:80%;
+width: 108px;
+height: 108px;
+border-radius:54px;
+background-color: #8CE67D;
+}
+#banner {
+position: absolute;
+top:160px;
+}
+.obj1 {
+padding: 20px;
+margin: 15px;
+top: 800px;
+left: 2%;
+position: absolute;
+width: 213px;
+height: 299px;
+background-color:#8CE77D;
+}
+.obj2 {
+padding: 20px;
+margin: 15px;
+top: 800px;
+left: 27%;
+position: absolute;
+width: 213px;
+height: 299px;
+background-color:#8CE77D;
+}
+.obj3 {
+padding: 20px;
+margin: 15px;
+top: 800px;
+left: 52%;
+position: absolute;
+width: 213px;
+height: 299px;
+background-color:#8CE77D;
+}
+.obj4 {
+padding: 20px;
+margin: 15px;
+top: 800px;
+left: 77%;
+position: absolute;
+width: 213px;
+height: 299px;
+background-color:#8CE77D;
+}
+footer{
+    top: 2000px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    margin: auto;
+    background-color:#8CE77D;
+}
+#logo{
+    height:80px;
+    width:80px;
+    top:10px;
+    left:80px;
+    margin:auto;
+    position: fixed;
+    border-radius:20px;
+}
+.redes{
+    bottom:30px;
+     right:50px;
+    position: absolute;
+
+}
+.item1{
+    padding: 2px;
+    right:2%;
+    bottom:25px;
+    z-index:2;
+    position:absolute;
+}
+.item2{
+    padding: 2px;
+    right:7%;
+    bottom:25px;
+    z-index:2;
+    position:absolute;
+}
+.item3{
+    padding: 2px;
+    right:12%;
+    bottom:25px;
+    z-index:2;
+    position:absolute;
+}
+
+#iconPesq{
+    top:41px;
+    right:370px;
+    position:absolute;
+}
+placeholder{
+    font-size:20px;
+}

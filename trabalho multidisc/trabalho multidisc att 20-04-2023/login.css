@@ -1,0 +1,76 @@
+body{
+margin:0;
+width:100%;
+height:100%;
+overflow: hidden;
+}
+
+.ret{
+    color:white;
+    position:absolute;
+    width:25%;
+    height:25%;
+    margin:1%;
+    z-index:1;
+    top:200px;
+    left:200px;
+    border: solid 5px;
+    text-align:center;
+
+}
+.retfilho{
+    color:white;
+    position:absolute;
+    margin-left:-50%;
+    margin-right:-50%;
+    z-index:1;
+    top:50%;
+    left:50%;
+    text-align:center;
+
+}
+.ret2{
+    color:white;
+    position:absolute;
+    width:25%;
+    height:25%;
+    margin:1%;
+    z-index:1;
+    top:200px;
+    right:200px;
+    border: solid 5px;
+    text-align:center;
+
+}
+#fundo{
+    scrolling:False;
+    background: url('FundoLogin.gif');
+    background-size: cover;
+    position: relative;
+    top:-19px;
+    width:100vw;
+    height:100vh;
+    z-index:-1;
+    margin: 0;
+}
+input{
+    left:50%;
+    background: white;
+    border-color: ;
+    border-radius:20px;
+    margin: auto;
+    width:80%;
+    height:25px;
+
+}
+.logoHome{
+    position:fixed;
+    z-index: 2;
+    background-color:white;
+    top: 70px;
+    left: 100px;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+
+}
