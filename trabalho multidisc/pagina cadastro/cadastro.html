@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <style type="text/css">
+	@import url("cadastro.css");
+</style>
+</head>
+<body>
+<div class="BarraSup">
+    <div id="logo"><img src="img/6.png" width="95px" height="100px"></div>
+    <div id="costas">
+        <input type="text" placeholder="Nome Completo" id="nomecompleto">
+        <input type="date" placeholder="Data de nascimento" id="data">
+        <input type="text" placeholder="Telefone para contato"
+               maxlength="10"
+               onkeypress="return (event.charCode !=8 && event.charCode ==0 || ( event.charCode == 46 || (event.charCode >= 48 && event.charCode <= 57)))"
+               id="telefone">
+        <input type="text" placeholder="CPF"
+               maxlength="11"
+               onkeypress="return (event.charCode !=8 && event.charCode ==0 || ( event.charCode == 46 || (event.charCode >= 48 && event.charCode <= 57)))"
+               id="cpf">
+        <input type="text" placeholder="Outro telefone"
+               maxlength="11"
+               onkeypress="return (event.charCode !=8 && event.charCode ==0 || ( event.charCode == 46 || (event.charCode >= 48 && event.charCode <= 57)))"
+               id="Otelefone">
+        <input type="text" placeholder="Rua/ Avenida" id="rua">
+        <input type="text" placeholder="Bairro" id="bairro">
+        <input type="text" placeholder="CEP" id="CEP"
+        onkeypress="return (event.charCode !=8 && event.charCode ==0 || ( event.charCode == 46 || (event.charCode >= 48 && event.charCode <= 57)))"
+        >
+        <input type="text" placeholder="Numero" id="numero"
+        onkeypress="return (event.charCode !=8 && event.charCode ==0 || ( event.charCode == 46 || (event.charCode >= 48 && event.charCode <= 57)))"
+        >
+        <input type="text" placeholder="Complemento" id="complemento">
+        <div id="linha"></div>
+        <input type="text" placeholder=" E-mail" id="email">
+        <input type="password" placeholder=" Senha" id="senha">
+        <input type="text" placeholder=" Confirme sua Senha" id="senhac">
+        <div class="txt_btn">
+        <input type="button" value="Continuar" id="btn_confirmar">
+        </div>
+    </div>
+
+</div>
+<div id="rodape">
+    <div id="linha3">Ajuda<br></div>
+    <div id="linha4">Perguntas frequentes<br>Formas de pagamento</div>
+    <div id="linha1">Institucional<br></div>
+    <div id="linha2">Historia da empresa<br>Missão<br>Visão<br>Valores<br>Principios</div>
+    <div id="linha5">Central de Relacionamento</div>
+    <div id="linha6">Tire suas Duvídas</div>
+    <div id="facebook"><img src="img/facebook.png" size="40"></div>
+    <div id="instagram"><img src="img/instagram.png" size="40"></div>
+    <div id="twitter"><img src="img/twitter.png" size="40"></div>
+    <div id="youtube"><img src="img/youtube.png" size="40"></div>
+</div>
+</body>
+</html>
