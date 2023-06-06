@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportfy - Confirmação Boleto</title>
+    <style type="text/css">
+        @import url("pagSelecmarcas.css");
+        @import url("index.css");
+        @import url("pagSobre.css");
+        @import url("pagPagamento.css");
+        @import url("pagConfirmBoleto.css");
+    </style>
+</head>
+<body>
+    <div id="cabecalho">
+        <div id="logo"> </div>
+        <img src="compraSegura.png" alt="Ícone" class="goCompraSegura">
+        <img src="cabecalhoConfirmacao.png" alt="Ícone" class="imagemcentralConfirm">
+    </div>
+
+    <div class="informacoesBoleto">
+        <span class="textoPrincipal">FALTA POUCO! AGORA É SÓ PAGAR O BOLETO<br><br></span>
+        <span class="texto">SEU PEDIDO SERÁ ENVIADO SOMENTE APÓS A CONFIRMAÇÃO DE PAGAMENTO<br><br><br></span>
+        <span class="texto">NÚMERO DO PEDIDO: xxxx xxxx xxxx<br><br><br></span>
+        <span class="texto">________________________________________________________________________________________________<br><br><br></span>
+        <span class="texto">A confirmação do pedido foi enviada para o e-mail (Endereço eletrônico)</span>
+    </div>
+
+    <div id="imprimirBoleto" >
+        <div class="codigoBoleto">
+            <span class="textoCodigoBoleto">23793.13022  50044.149297  91006.305204  1  93400000027990</span>
+        </div>
+        <input type="button" class="botaoImprimirBoleto" value="IMPRIMIR BOLETO">
+    </div>
+
+    <div id="imagemBoleto">
+        <img src="boletoPagamento.png" alt="Ícone" class="imagemBoletoImpressao">
+    </div>
+
+    <div id="primeiroTituloDireitoDiv">
+        <span class="primeiroTituloDireito">Atenção!!!!</span>
+    </div>
+
+    <div class="retanguloAtencao">
+        <ul>
+            <li class="closed">O prazo de entrega é válido somente após a confirmação do pagamento.<br></li>
+            <li class="closed">Seu pedido pode ser dividido e alguns itens podem chegar antes do prazo total da compra.</li>
+            <li class="closed">A cada R$250,00 em compras, 1% é doado à uma instituição de caridade.</li>
+        </ul>
+    </div>
+
+    <div id="tituloCimaDireito">
+        <span class="textoTituloCimaDireito">Resumo do pedido</span>
+    </div>
+
+    <div id="tituloInferiorDireito">
+        <span class="textoTituloInferiorDireito">Forma de pagamento</span>
+    </div>
+
+    <div class="retanguloFormaPagamento">
+        <img src="Boleto.png" alt="Ícone" class="iconeBoleto">
+        <span class="textoBoleto">Boleto</span>
+    </div>
+
+
+    <div class="primeiroRetanguloDireito">
+        <img src="home.png" alt="Ícone" class="home">
+        <span class="enderecoEntrega">Endereço de entrega<br></span>
+        <span class="principal">Principal<br><br></span>
+        <span class="endereco">Rua das pitangueiras, 105 - Casa 02<br>
+        CEP: 05984-064 - Gramado - RS<br></span>
+        <span class="linhaPrimeiroRetanguloDireito">__________________________________________________<br><br></span>
+        <span class="outroendereco">Quer receber o pedido em outro endereço?<br><br></span>
+        <input type="button" class="alterarEndereco" value="ALTERAR ENDEREÇO">
+    </div>
+
+    <div class="segundoRetanguloDireito">
+        <img src="resumoPedido.png" alt="Ícone" class="home">
+        <span class="ResumoPedido">Resumo do pedido<br><br></span>
+        <span class="itensResumoPedido">Itens&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Qtde&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Valor<br><br></span>
+        <span class="descricao">Produto camiseta da <br>nike com o logo azul e&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 000.00<br> gola vermelha<br></span>
+        <span class="faixa">___________________________________________________________<br><br></span>
+        <span class="frete">Frete</span>
+        <span class="valorFrete">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 000.00<br><br></span>
+        <span class="totalValor"><b>Valor Total</b></span>
+        <span class="valorPedido"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 000.00</b></span>
+    </div>
+
+    <footer id="rodape">
+        <span class="span1">Intitucional</span>
+        <span class="span2">Ajuda</span>
+        <span class="span3">Central de Relacionamento</span>
+        <span class="span4">Tire suas Duvidas</span>
+        <span class="span6">História da empresa</span>
+        <span class="span7">Missão</span>
+        <span class="span8">Visão</span>
+        <span class="span9">Valores</span>
+        <span class="span10">Princípios</span>
+        <span class="span11">Perguntas frequentes</span>
+        <span class="span12">Formas de Pagamento</span>
+        <div class="instagram" ></div>
+        <div class="facebook"></div>
+        <div class="twitter"></div>
+        <div class="youtube"></div>
+    </footer>
+</body>
+</html>

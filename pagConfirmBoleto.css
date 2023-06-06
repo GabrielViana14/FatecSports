@@ -1,0 +1,290 @@
+body, html {
+	position: relative;
+	width: 100%;
+	margin: 0;
+    padding: 0;
+	background: #FFFFFF;
+
+}
+
+.imagemcentralConfirm {
+    position: relative;
+	width: 450px;
+	height: 80px;
+    margin-left: 650px;
+	top: 14px;
+}
+
+/* O código Abaixo se refere as Divs primeiroRetanguloDireito e segundoRetanguloDireito*/
+
+.primeiroRetanguloDireito {
+    position: absolute;
+    width: 600px;
+    height: 250px;
+    left: 1210px;
+    top: 470px;
+    background: #F0E9E9;
+    border-radius: 20px;
+}
+
+.segundoRetanguloDireito {
+    position: absolute;
+    width: 600px;
+    height: 320px;
+    left: 1210px;
+    top: 750px;
+    background: #F0E9E9;
+    border-radius: 20px;
+}
+
+.home {
+    margin-left: 12px;
+    line-height: 1;
+}
+
+.enderecoEntrega {
+    font-weight: bold;
+    font-size:20px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 0px;
+    line-height: 2;
+}
+
+.principal {
+    font-size:18px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 40px;
+}
+
+.endereco {
+    font-size:18px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 40px;
+    display: flex;
+}
+
+.linhaPrimeiroRetanguloDireito {
+    font-size:18px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.outroendereco {
+    font-size:18px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 40px;
+}
+
+.alterarEndereco {
+    width: 220px;
+    height: 40px;
+    left: 50px;
+    top: 0;
+    background: #F66C28;
+    border-radius: 10px;
+    margin-top: -20px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 180px;
+}
+
+.alterarEndereco:active {
+    transform: scale(0.95);
+}
+
+.ResumoPedido {
+    font-weight: bold;
+    font-size:20px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 0px;
+    line-height: 2;
+}
+
+.itensResumoPedido {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 40px;
+}
+
+.descricao {
+    font-size: 20px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 40px;
+    display: flex;
+}
+
+.faixa {
+    margin-left: 40px;
+}
+
+.valorPedido,.totalValor,.valorFrete,.frete {
+    font-size: 20px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 40px;
+}
+
+.textoTituloCimaDireito {
+    font-weight: bold;
+    font-size:25px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 40px;
+    line-height: 2;
+}
+
+#tituloCimaDireito {
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    left: 1210px;
+    top: 400px;
+    background: #BBFFB0;
+    font-family: "Fira Sans",sans-serif;
+}
+
+.primeiroTituloDireito {
+    font-weight: bold;
+    font-size:25px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 40px;
+    line-height: 2;
+}
+
+#primeiroTituloDireitoDiv {
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    left: 1210px;
+    top: 120px;
+    background: #BBFFB0;
+    font-family: "Fira Sans",sans-serif;
+}
+
+.retanguloAtencao {
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    left: 1210px;
+    top: 185px;
+    background: #F0E9E9;
+    border-radius: 20px;
+}
+
+#tituloInferiorDireito {
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    left: 1210px;
+    top: 1100px;
+    background: #BBFFB0;
+    font-family: "Fira Sans",sans-serif;
+}
+
+.textoTituloInferiorDireito {
+    font-weight: bold;
+    font-size:25px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 40px;
+    line-height: 2;
+}
+
+.retanguloFormaPagamento {
+    position: absolute;
+    width: 600px;
+    height: 70px;
+    left: 1210px;
+    top: 1170px;
+    background: #F0E9E9;
+    border-radius: 20px;
+}
+
+.textoBoleto {
+    font-weight: bold;
+    font-size:25px;
+    font-family: "Fira Sans",sans-serif;
+    line-height: 2;
+    margin-left: 5px;
+}
+
+.iconeBoleto {
+    margin-left: 12px;
+    margin-top: 20px;
+}
+
+/* O código Acima se refere as Divs primeiroRetanguloDireito e segundoRetanguloDireito*/
+
+.informacoesBoleto {
+    position:absolute;
+    margin-left: 60px;
+    top: 135px;
+}
+
+.textoPrincipal {
+    font-weight: bold;
+    font-size: 32px;
+    font-family: "Fira Sans",sans-serif;
+}
+
+.texto {
+    font-size: 20px;
+    font-family: "Fira Sans",sans-serif;
+}
+
+#imprimirBoleto {
+    position: absolute;
+    width: 1080px;
+    height: 80px;
+    left: 60px;
+    top: 470px;
+    background: #F0E9E9;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.codigoBoleto {
+    position: absolute;
+    width: 800px;
+    height: 40px;
+    left: 12px;
+    top: 20px;
+    background: #FBFBFB;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textoCodigoBoleto {
+    font-family: "Fira Sans",sans-serif;
+    font-size: 25px;
+    font-weight: 1000px;
+    line-height: 19px;
+    margin-left: 12px;
+    font-style: normal;
+}
+
+.botaoImprimirBoleto {
+    width: 220px;
+    height: 40px;
+    background: #F66C28;
+    border-radius: 10px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 810px;
+}
+
+.botaoImprimirBoleto:active {
+    transform: scale(0.95);
+}
+
+#imagemBoleto {
+    margin-left: 170px;
+}
+
+.imagemBoletoImpressao {
+    margin-top: 600px;
+    width: 800px;
+    height: 1000px;
+}
+
+

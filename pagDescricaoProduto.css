@@ -1,0 +1,619 @@
+body{
+	position: relative;
+	width: 100%;
+	margin: 0px;
+
+	background: #FFFFFF;
+
+}
+
+#cabecalho{
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	background: #BBFFB0;	
+}
+
+#logo{
+	position: absolute;
+	width: 135px;
+	height: 135px;
+	left: 43px;
+	top: -12px;
+	background: url(logohome.png);
+}
+
+#goLogin{
+	position: absolute;
+	width: 60px;
+	height: 65px;
+	left: 1700px;
+	top: 25px;
+	background: url(login.png);
+}
+
+#goCarrinho{
+	position: absolute;
+	width: 60px;
+	height: 65px;
+	left: 1620px;
+	top: 25px;
+	background: url(carrinho.png);			
+}
+
+#pesquisar{
+	position: absolute;
+	width: 640px;
+	height: 28px;
+	left: 620px;
+	top: 36px;
+	margin: center;
+	background: #FFFFFF;
+	border-radius: 16px;
+}
+
+.goPesquisa{
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 1240px;
+	top: 42px;
+	background: url(lupa.png);
+}
+
+#menu{
+	position: absolute;
+	width: 100%;
+	height: 71px;
+	left: 0px;
+	top: 100px ;
+	display: grid;
+	align-items: center;
+	background: #F0E9E9;
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.botao1{
+	position: absolute;
+	width: 449px;
+	height: 53px;
+	left: 10px;
+	top: 9px;
+	display: inline-grid;
+	background: #BBFFB0;
+	border-color: #BBFFB0;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-family: 'Fira Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+	color: #000000;
+}
+
+.botao2{
+	position: absolute;
+	width: 449px;
+	height: 53px;
+	left: 469px;
+	top: 9px;
+	display: inline-grid;
+	background: #BBFFB0;
+	border-color: #BBFFB0;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-family: 'Fira Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+	color: #000000;
+}
+
+.botao3{
+	position: absolute;
+	width: 449px;
+	height: 53px;
+	left: 928px;
+	top: 9px;
+	display: inline-grid;
+	background: #BBFFB0;
+	border-color: #BBFFB0;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-family: 'Fira Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+	color: #000000;
+}
+
+.botao4{
+	position: absolute;
+	width: 449px;
+	height: 53px;
+	left: 1387px;
+	top: 9px;
+	display: inline-grid;
+	background: #BBFFB0;
+	border-color: #BBFFB0;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-family: 'Fira Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+	color: #000000;
+
+}
+
+#rodape{
+    position: absolute;
+	width: 1910px;
+	height: 200px;
+	margin-left: -85px;
+	top: 2080px;
+	background: #BBFFB0;
+}
+
+.retanguloPrincipalDescricao {
+    position: absolute;
+    width: 1700px;
+    height: 700px;
+    left: 85px;
+    top: 210px;
+    background: #F0E9E9;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.primeiroRetanguloImagem {
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    background-color: #FBFBFB;
+    border-radius: 20px 0px 0px 0px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.segundoRetanguloImagem {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 500px;
+    background-color: #D9D9D9;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 0px 20px;
+}
+
+.terceiroRetanguloImagem {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 500px;
+    margin-left: 200px;
+    background-color: #D9D9D9;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.quartoRetanguloImagem {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 500px;
+    margin-left: 400px;
+    background-color: #D9D9D9;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.quintoRetanguloImagem {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 500px;
+    margin-left: 600px;
+    background-color: #D9D9D9;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.camisetaAmarela {
+    margin-top: 25px;
+    margin-left: 250px;
+}
+
+.textoCamisa {
+    font-weight: bolder;
+    font-size:30px;
+    font-family: "Fira Sans",sans-serif;
+    position: absolute;
+    margin-left: 1010px;
+    line-height: 2.5;
+}
+
+.freteFor {
+    position: absolute;
+    font-size:18px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 1040px;
+    margin-top: 110px;
+}
+
+.cepFreteFor {
+    position: absolute;
+    margin-left: 1300px;
+    margin-top: 95px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.taxaFrete {
+    position: absolute;
+    font-size:18px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 1040px;
+    margin-top: 210px;
+}
+
+.value {
+    position: absolute;
+    font-size:18px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 1350px;
+    margin-top: 200px;
+}
+
+.quantidadeItens {
+    position: absolute;
+    font-size:18px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 1040px;
+    margin-top: 325px;
+}
+
+.quantity-box {
+    display: flex;
+    margin-left: 1350px;
+    width: 120px;
+    margin-top: 305px;
+  }
+  
+  .quantity-btn {
+    width: 50px;
+    height: 50px;
+    background-color: #D9D9D9;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .quantity-input {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: none;
+  }
+  
+
+.camisetasInferiores {
+    margin-top: 12.5px;
+    margin-left: 12.5px;
+}
+
+.sextoRetanguloImagem {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 500px;
+    margin-left: 800px;
+    background-color: #D9D9D9;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.retanguloSegundarioDescricao {
+    position: absolute;
+    width: 1700px;
+    height: 570px;
+    margin-left: 0px;
+    top: 750px;
+    background: #F0E9E9;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.retanguloTerciarioDescricao {
+    position: absolute;
+    width: 1700px;
+    height: 650px;
+    left: 0px;
+    top: 1380px;
+    background: #F0E9E9;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.digiteEmail {
+    position: absolute;
+    width: 1600px;
+    height: 60px;
+    left: 50px;
+    top: 70px;
+    background: #FBFBFB;
+    border-radius: 20px;
+    align-items: center;
+    border: 1px solid #000000;
+}
+
+.descricaoPergunta {
+    position: absolute;
+    width: 1600px;
+    height: 400px;
+    left: 50px;
+    top: 150px;
+    background: #FBFBFB;
+    align-items: center;
+    border: 1px solid #000000;
+}
+
+.perguntas {
+    font-weight: bolder;
+    font-size:30px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 60px;
+    line-height: 2.5;
+}
+
+.caracteristicasDescricao {
+    font-weight: bolder;
+    font-size:30px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 60px;
+    line-height: 2.5;
+}
+
+.DescricaoSegundoRetangulo {
+    font-weight: bolder;
+    font-size:30px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+
+.textoDigiteEmail {
+    color: #696969;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 20px;
+    line-height: 3.5;
+}
+
+.textoDescricao {
+    font-size: 18px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 60px;
+    display: flex;
+    font-weight: normal;
+}
+
+.textoDescricaoPergunta {
+    color: #696969;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 20px;
+    line-height: 3;
+}
+
+.primeiraColunaDescricao {
+    font-family: "Fira Sans",sans-serif;
+    font-size: 17px;
+    margin-left: 60px;
+}
+
+.botaoPerguntar {
+    position: absolute;
+    width: 350px;
+    height: 70px;
+    left: 675px;
+    top: 564px;
+    background: #F66C28;
+    border-radius: 10px;
+    font-family: "Fira Sans",sans-serif;
+    font-size: 30px;
+}
+
+.botaoPerguntar:active {
+    transform: scale(0.95);
+}
+
+.tamanhoProdutoEscolhido {
+    position:absolute;
+    font-size: 18px;
+    font-family: "Fira Sans",sans-serif;
+    left: 1040px;
+    top: 435px;
+}
+
+.tamanhoPP {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1180px;
+    top: 430px;
+    background: #FBFBFB;
+    border-radius: 20px;   
+    border: 1px solid #000000;
+}
+
+.checkbox1 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 490px;
+    left: 1192.5px;
+}
+
+.tamanhoP {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1260px;
+    top: 430px;
+    background: #FBFBFB;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    border: 1px solid #000000;  
+}
+
+.checkbox2 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 490px;
+    left: 1272.5px;
+}
+
+.tamanhoM {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1340px;
+    top: 430px;
+    background: #FBFBFB;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border: 1px solid #000000;   
+}
+
+.checkbox3 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 490px;
+    left: 1352.5px;
+}
+
+.tamanhoG {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1420px;
+    top: 430px;
+    background: #FBFBFB;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border: 1px solid #000000;   
+}
+
+.checkbox4 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 490px;
+    left: 1432.5px;
+}
+
+.tamanhoGG {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1500px;
+    top: 430px;
+    background: #FBFBFB;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    border: 1px solid #000000; 
+}
+
+.checkbox5 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 490px;
+    left: 1512.5px;
+}
+
+.tamanhoXG {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1580px;
+    top: 430px;
+    background: #FBFBFB;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    border: 1px solid #000000;  
+}
+
+.checkbox6 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 490px;
+    left: 1592.5px;
+}
+
+.botaoCarrinho {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 1030px;
+    top: 550px;
+    background: #F66C28;
+    border-radius: 10px;
+    font-family: "Fira Sans",sans-serif;
+    font-size: 30px;
+}
+
+.botaoCarrinho:active {
+    transform: scale(0.95);
+}
+
+.botaocompreAgora {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 1350px;
+    top: 550px;
+    background: #F66C28;
+    border-radius: 10px;
+    font-family: "Fira Sans",sans-serif;
+    font-size: 30px;
+}
+
+.botaocompreAgora:active {
+    transform: scale(0.95);
+}
+
+.botaoDownloadMedidas {
+    position: absolute;
+    width: 300px;
+    height: 55px;
+    left: 1200px;
+    top: 630px;
+    border-radius: 20px;  
+    background: #FFDAB9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Fira Sans",sans-serif;
+}
+
+.botaoDownloadMedidas:active {
+    transform: scale(0.95);
+}
+

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="./src/script.js" defer></script>
+    <link rel="icon" href="basketball.png" type="image/x-icon">
+    <title>Sportify - Descrição Produto</title>
+    <style type="text/css">
+	    @import url("pagSelecmarcas.css");
+        @import url("index.css");
+        @import url("pagSobre.css");
+        @import url("pagPagamento.css");
+        @import url("pagConfirmBoleto.css");
+        @import url("pagConfirmPix.css");
+        @import url("pagConfirmCartaoCredito.css");
+        @import url("pagCadastroProdutos.css");
+        @import url("pagDescricaoProduto.css");
+	</style>
+</head>
+
+<body>
+	<div id="cabecalho">
+		<a href="index.html"<div id="logo"> </div></a>
+		<a href="login.html"<div id="goLogin"> </div></a>
+		<a href="pagCarrinho.html"<div id="goCarrinho"></div></a>
+		<input type="text" placeholder="O que você esta procurando?" id="pesquisar">
+		<div class="goPesquisa"></div> 
+	</div>
+
+	<div id="menu">
+		<button class="botao1">Categorias</button>
+		<button class="botao2">Popular</button>
+		<button class="botao3 ">Promoção</button>
+		<a href="pagSobre.html"><button class="botao4">Sobre nós</button></a>
+	</div>
+	
+    <div class="retanguloPrincipalDescricao">
+        <input type="text" class="cepFreteFor" size="40" placeholder="CEP" style="width: 250px; height: 40px;"/>
+        <div class="primeiroRetanguloImagem">
+            <img src="camisetaAmarela.png" width="450px" height="450px" class="camisetaAmarela">
+        </div>
+        <div class="segundoRetanguloImagem">
+            <img src="camisetaAzul.png" width="175px" height="175px" class="camisetasInferiores">
+        </div>
+        <div class="terceiroRetanguloImagem">
+            <img src="camisetaBranca.png" width="175px" height="175px" class="camisetasInferiores">
+        </div>
+        <div class="quartoRetanguloImagem">
+            <img src="camisetaCinza.png" width="175px" height="175px" class="camisetasInferiores">
+        </div>
+        <div class="quintoRetanguloImagem">
+            <img src="camisetaPreta.png" width="175px" height="175px" class="camisetasInferiores">
+        </div>
+        <div class="sextoRetanguloImagem">
+            <img src="camisetaAmarela.png" width="175px" height="175px" class="camisetasInferiores">
+        </div>
+        <span class="textoCamisa">Camisa seleção Brasileira Pelé 10 
+            Edição 1970</span>
+        <span class="freteFor">Frete para:</span>
+        <span class="taxaFrete">Taxa de Frete:<br></span>
+        <span class="value"><b>R$ 0.000,00</b></span>
+        <span class="quantidadeItens">Quantidade:</span>
+        <div class="quantity-box">
+        <button class="quantity-btn minus-btn" onclick="decrement()">-</button>
+        <input type="number" class="quantity-input" value="1" min="1">
+        <button class="quantity-btn plus-btn" onclick="increment()">+</button>
+        <div>
+            <span class="tamanhoProdutoEscolhido">Tamanho:<br><br></span>
+            <div class="tamanhoPP">
+                <span class="textoTamanho">PP</span>
+            </div>
+            <div class="tamanhoP">
+                <span class="textoTamanho">P</span>
+            </div>
+            <div class="tamanhoM">
+                <span class="textoTamanho">M</span>
+            </div>
+            <div class="tamanhoG">
+                <span class="textoTamanho">G</span>
+            </div>
+            <div class="tamanhoGG">
+                <span class="textoTamanho">GG</span>
+            </div>
+            <div class="tamanhoXG">
+                <span class="textoTamanho">XG</span>
+            </div>
+                <input type="checkbox" id="myCheckbox" class="checkbox1">
+                <label for="myCheckbox"></label>
+                <input type="checkbox" id="myCheckbox" class="checkbox2">
+                <label for="myCheckbox"></label>
+                <input type="checkbox" id="myCheckbox" class="checkbox3">
+                <label for="myCheckbox"></label>
+                <input type="checkbox" id="myCheckbox" class="checkbox4">
+                <label for="myCheckbox"></label>
+                <input type="checkbox" id="myCheckbox" class="checkbox5">
+                <label for="myCheckbox"></label>
+                <input type="checkbox" id="myCheckbox" class="checkbox6">
+                <label for="myCheckbox"></label>
+				<a href=""><button class="botaoCarrinho">CARRINHO</button></a>
+                <a href="pagConfirmPix.html"><button class="botaocompreAgora">COMPRE AGORA</button></a>
+                <button class="botaoDownloadMedidas">
+                <img src="download.png" width="45px" height="45px">
+                &nbsp;&nbsp;&nbsp;&nbsp;Download de guia de Medidas
+				</button>
+        </div>
+    </div>
+
+    <div class="retanguloSegundarioDescricao">
+        <span class="caracteristicasDescricao">Características<br></span>
+        <span class="primeiraColunaDescricao"><b>Nome:</b> Camisa seleção Brasileira Pelé 10<br></span>
+        <span class="primeiraColunaDescricao"><b>Gênero:</b> Masculino<br></span>
+        <span class="primeiraColunaDescricao"><b>Departamento:</b>Esportes<br></span>
+        <span class="primeiraColunaDescricao"><b>Indicado para:</b> Dia a Dia<br></span>
+        <span class="primeiraColunaDescricao"><b>Estilo da Peça:</b> Estampada<br></span>
+        <span class="primeiraColunaDescricao"><b>Manga:</b> Curta<br></span>
+        <span class="primeiraColunaDescricao"><b>Gola:</b> Gola careca<br></span>
+        <span class="primeiraColunaDescricao"><b>Material:</b>Algodão<br></span>
+        <span class="primeiraColunaDescricao"><b>Garantia do Fabricante:</b> Contra defeitos de Fabricação<br></span>
+        <span class="primeiraColunaDescricao"><b>Marca:</b>Sportfy<br><br><br></span>
+        <span class="DescricaoSegundoRetangulo">Descrição<br><br></span>
+        <span class="textoDescricao">A Camisa seleção Brasileira Pelé 10 é um dos líderes de vendas da Sportfy.<br><br><br></span>
+        <span class="textoDescricao"> Perfeita para as mais diversas ocasiões do dia a dia, desde o uso diário, até aquele date tão esperado 
+            com aquela pessoa especial.<br><br><br></span>
+        <span class="textoDescricao">Buscamos sempre em nossos produtos trazer a leveza do dia a dia e a versatilidade que nossos clientes buscam
+            para que estejam sempre preparados para as mudanças diárias da vida.</span>
+    </div>
+
+    <div class="retanguloTerciarioDescricao">
+        <span class="perguntas">Perguntas<br></span>
+        <div class="digiteEmail">
+            <span class="textoDigiteEmail">Insira um e-mail para recebimento da resposta</span>
+        </div>
+        <div class="descricaoPergunta">
+            <span class="textoDescricaoPergunta">Descrição da pergunta</span>
+        </div>
+    <button class="botaoPerguntar">PERGUNTAR</button>
+    </div>
+	
+	<footer id="rodape">
+		<span class="span1">Intitucional</span>
+		<span class="span2">Ajuda</span>
+		<span class="span3">Central de Relacionamento</span>
+		<span class="span4">Tire suas Duvidas</span>
+		<span class="span6">História da empresa</span>
+		<span class="span7">Missão</span>
+		<span class="span8">Visão</span>
+		<span class="span9">Valores</span>
+		<span class="span10">Princípios</span>
+		<span class="span11">Perguntas frequentes</span>
+		<span class="span12">Formas de Pagamento</span>
+		<div class="instagram"></div>
+		<div class="facebook"></div>
+		<div class="twitter"></div>
+		<div class="youtube"></div>
+	</footer>
+</body>
+</html>

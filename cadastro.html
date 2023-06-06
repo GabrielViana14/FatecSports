@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <style type="text/css">
+	@import url("cadastro.css");
+	@import url("login.css");
+</style>
+</head>
+<body>
+<div id="cabecalho">
+		<a href="index.html"<div id="logoCad"> </div></a>
+</div>
+
+<div class="formularioCad" method="post">
+	<input type="text" placeholder="Nome Completo" class="nomecompleto">
+	<input type="date" placeholder="Data de nascimento" class="data">
+	<input type="text" placeholder="Telefone para contato"
+               maxlength="10"
+               onkeypress="return (event.charCode !=8 && event.charCode ==0 || ( event.charCode == 46 || (event.charCode >= 48 && event.charCode <= 57)))"
+               class="telefone">
+        <input type="text" placeholder="CPF"
+               maxlength="11"
+               onkeypress="return (event.charCode !=8 && event.charCode ==0 || ( event.charCode == 46 || (event.charCode >= 48 && event.charCode <= 57)))"
+               class="cpf">
+        <input type="text" placeholder="Outro telefone"
+               maxlength="11"
+               onkeypress="return (event.charCode !=8 && event.charCode ==0 || ( event.charCode == 46 || (event.charCode >= 48 && event.charCode <= 57)))"
+               class="Otelefone">
+	<input type="text" placeholder="Rua/ Avenida" class="rua">
+    <input type="text" placeholder="Bairro" class="bairro">
+	<input type="text" placeholder="CEP" class="CEP"
+        onkeypress="return (event.charCode !=8 && event.charCode ==0 || ( event.charCode == 46 || (event.charCode >= 48 && event.charCode <= 57)))"
+        >
+        <input type="text" placeholder="Numero" class="numero"
+        onkeypress="return (event.charCode !=8 && event.charCode ==0 || ( event.charCode == 46 || (event.charCode >= 48 && event.charCode <= 57)))"
+        >
+	<input type="text" placeholder="Complemento" class="complemento">
+	
+	
+	<div class="bannerCad"></div>
+	<input type="text" placeholder=" E-mail" class="email">
+    <input type="password" placeholder=" Senha" class="senha">
+    <input type="text" placeholder=" Confirme sua Senha" class="senhac">
+	
+	<a href="index.html"><button class="btn_confirmar">Cadastrar</button></a>
+	
+
+</div>
+
+<footer id="rodape">
+		<span class="span1">Intitucional</span>
+		<span class="span2">Ajuda</span>
+		<span class="span3">Central de Relacionamento</span>
+		<span class="span4">Tire suas Duvidas</span>
+		<span class="span6">História da empresa</span>
+		<span class="span7">Missão</span>
+		<span class="span8">Visão</span>
+		<span class="span9">Valores</span>
+		<span class="span10">Princípios</span>
+		<span class="span11">Perguntas frequentes</span>
+		<span class="span12">Formas de Pagamento</span>
+		<div class="instagram"></div>
+		<div class="facebook"></div>
+		<div class="twitter"></div>
+		<div class="youtube"></div>
+	</footer>
+</body>
+</html>
