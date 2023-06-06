@@ -1,0 +1,479 @@
+html,
+body {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+#cabecalho{
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	background: #BBFFB0;	
+}
+#logo{
+	position: absolute;
+	width: 131px;
+	height: 115px;
+	left: 43px;
+	top: -12px;
+
+	background: url(img/2.png);
+}
+#rodape{
+	position: absolute;
+	width: 100%;
+	height: 180px;
+	left: 0px;
+	bottom:0px;
+	background: #BBFFB0;
+
+	
+	
+	
+}
+.span1{
+	position: absolute;
+	width: 129px;
+	height: 37px;
+	left: 56px;
+	top: 9px;
+
+	font-family: 'Fira Sans';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 20px;
+	line-height: 24px;
+
+	color: #000000;
+
+
+}
+.span2{
+	position: absolute;
+width: 129px;
+height: 37px;
+left: 273px;
+top: 6px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+	
+}
+.span3{
+	position: absolute;
+width: 256px;
+height: 37px;
+left: 459px;
+top: 9px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+}
+.span4{
+	position: absolute;
+width: 170px;
+height: 37px;
+left: 497px;
+top: 44px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 900;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+}
+
+.span5{
+	position: absolute;
+	width: 336px;
+	height: 45px;
+	left: 33px;
+	top: 13px;
+
+	font-family: 'Fira Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 36px;
+
+	color: #000000;
+}
+.span6{
+	position: absolute;
+width: 218px;
+height: 37px;
+left: 56px;
+top: 37px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+}
+.span7{
+	position: absolute;
+width: 177px;
+height: 37px;
+left: 56px;
+top: 63px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+}
+.span8{
+	position: absolute;
+width: 177px;
+height: 37px;
+left: 57px;
+top: 90px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+}
+.span9{
+	position: absolute;
+width: 177px;
+height: 37px;
+left: 56px;
+top: 119px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+}
+.span10{
+	position: absolute;
+width: 177px;
+height: 37px;
+left: 57px;
+top: 146px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+}
+.span11{
+	position: absolute;
+width: 218px;
+height: 37px;
+left: 256px;
+top: 40px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+}
+.span12{
+	position: absolute;
+width: 218px;
+height: 37px;
+left: 257px;
+top: 64px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;d
+
+}
+.instagram{
+	position: absolute;
+width: 24px;
+height: 24px;
+left: 1654px;
+top: 44px;
+
+background: url(img/instagram.png);
+	
+}
+.facebook{
+	position: absolute;
+width: 24px;
+height: 24px;
+left: 1606px;
+top: 44px;
+
+background: url(img/facebook.png);
+	
+}
+.twitter{
+	position: absolute;
+width: 24px;
+height: 24px;
+left: 1702px;
+top: 44px;
+
+background: url(img/twitter.png);
+	
+}
+.youtube{
+	position: absolute;
+width: 24px;
+height: 24px;
+left: 1750px;
+top: 44px;
+
+background: url(img/youtube.png)
+	
+	
+}
+.formularioLogin{
+	position:absolute;
+	width: 900px;
+	height: 420px;
+	left: 25%;
+	top: 23%;
+
+	background: #F0E9E9;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 16px;
+		
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	
+	
+}
+.span13{
+	position: absolute;
+width: 183px;
+height: 36px;
+left: 55px;
+top: 57px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+
+}.span14{
+	position: absolute;
+width: 149px;
+height: 36px;
+left: 526px;
+top: 58px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+
+
+color: #000000;
+
+}
+.span15{
+	position: absolute;
+width: 144px;
+height: 18px;
+left: 63px;
+top: 269px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+
+
+color: #000000;
+}
+.input1{
+	font-family: Fira sans;
+    font-size: 15px;
+    line-height: 1.5;
+	
+	box-sizing: border-box;
+
+	position: absolute;
+	width: 300px;
+	height: 51px;
+	left: 58px;
+	top: 131px;
+
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	border-radius: 25px;
+    
+}
+.input1:hover{
+   
+}
+.input2:hover{
+   
+}
+.input2{
+	font-family: Fira sans;
+    font-size: 15px;
+    line-height: 1.5;
+	
+	box-sizing: border-box;
+
+	position: absolute;
+	width: 300px;
+	height: 51px;
+	left: 58px;
+	top: 199px;
+
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	border-radius: 25px;
+    
+}
+.login{
+	position: absolute;
+    line-height: 1.5;
+    text-transform: uppercase;
+    width: 300px;
+    height: 51px;
+	left: 55px;
+	top: 301px;
+	border: 1px solid #BBFFB0;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    background: #BBFFB0;
+	
+	font-family: Fira sans;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 15px;
+	line-height: 18px;
+	
+
+
+	text-align: center;
+
+	color: #000000;
+
+}
+.login:hover{
+	opacity:0.5;
+	cursor:pointer;
+	
+	
+}
+
+.banner{
+	position: absolute;
+	width: 348px;
+	height: 0px;
+	left: 30%;
+	top: 50%;
+
+	border: 1px solid rgba(0, 0, 0, 0.25);
+	transform: rotate(90deg);
+		
+}
+
+.input3{
+	font-family: Fira sans;
+    font-size: 15px;
+    line-height: 1.5;
+	
+	box-sizing: border-box;
+
+	position: absolute;
+	width: 300px;
+	height: 51px;
+	left: 516px;
+	top: 127px;
+
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	border-radius: 25px;
+    
+}
+
+.cadastroBtn{
+	position: absolute;
+    line-height: 1.5;
+    text-transform: uppercase;
+    width: 300px;
+    height: 51px;
+	left: 516px;
+	top: 212px;
+	border: 1px solid #BBFFB0;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    background: #BBFFB0;
+	
+	font-family: Fira sans;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 15px;
+	line-height: 18px;
+
+
+	text-align: center;
+
+	color: #000000;
+	
+}
+.cadastroBtn:hover{
+	opacity:0.5;
+	cursor:pointer;
+	
+	
+}
+input:hover{
+	
+border: 5px solid #BBFFB0 ;
+}
+

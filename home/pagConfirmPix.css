@@ -1,0 +1,462 @@
+body, html {
+	position: relative;
+	width: 100%;
+	margin: 0;
+    padding: 0;
+	background: #FFFFFF;
+}
+
+.imagemcentralConfirm {
+    position: relative;
+	width: 450px;
+	height: 80px;
+    margin-left: 650px;
+	top: 14px;
+}
+
+.primeiroRetanguloDireito {
+    position: absolute;
+    width: 600px;
+    height: 250px;
+    left: 1210px;
+    top: 470px;
+    background: #F0E9E9;
+    border-radius: 20px;
+}
+
+.segundoRetanguloDireito {
+    position: absolute;
+    width: 600px;
+    height: 320px;
+    left: 1210px;
+    top: 750px;
+    background: #F0E9E9;
+    border-radius: 20px;
+}
+
+.home {
+    margin-left: 12px;
+    line-height: 1;
+}
+
+.enderecoEntrega {
+    font-weight: bold;
+    font-size:20px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 0px;
+    line-height: 2;
+}
+
+.principal {
+    font-size:18px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 40px;
+}
+
+.endereco {
+    font-size:18px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 40px;
+    display: flex;
+}
+
+.linhaPrimeiroRetanguloDireito {
+    font-size:18px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.outroendereco {
+    font-size:18px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 40px;
+}
+
+.alterarEndereco {
+    width: 220px;
+    height: 40px;
+    left: 50px;
+    top: 0;
+    background: #F66C28;
+    border-radius: 10px;
+    margin-top: -20px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 180px;
+}
+
+.alterarEndereco:active {
+    transform: scale(0.95);
+}
+
+.ResumoPedido {
+    font-weight: bold;
+    font-size:20px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 0px;
+    line-height: 2;
+}
+
+.itensResumoPedido {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 40px;
+}
+
+.descricao {
+    font-size: 20px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 40px;
+    display: flex;
+}
+
+.faixa {
+    margin-left: 40px;
+}
+
+.valorPedido,.totalValor,.valorFrete,.frete {
+    font-size: 20px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 40px;
+}
+
+.textoTituloCimaDireito {
+    font-weight: bold;
+    font-size:25px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 40px;
+    line-height: 2;
+}
+
+#tituloCimaDireito {
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    left: 1210px;
+    top: 400px;
+    background: #BBFFB0;
+    font-family: "Fira Sans",sans-serif;
+}
+
+.primeiroTituloDireito {
+    font-weight: bold;
+    font-size:25px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 40px;
+    line-height: 2;
+}
+
+#primeiroTituloDireitoDiv {
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    left: 1210px;
+    top: 120px;
+    background: #BBFFB0;
+    font-family: "Fira Sans",sans-serif;
+}
+
+.retanguloAtencao {
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    left: 1210px;
+    top: 185px;
+    background: #F0E9E9;
+    border-radius: 20px;
+}
+
+#tituloInferiorDireito {
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    left: 1210px;
+    top: 1100px;
+    background: #BBFFB0;
+    font-family: "Fira Sans",sans-serif;
+}
+
+.textoTituloInferiorDireito {
+    font-weight: bold;
+    font-size:25px;
+    font-family: "Fira Sans",sans-serif;
+    margin-left: 40px;
+    line-height: 2;
+}
+
+.retanguloFormaPagamento {
+    position: absolute;
+    width: 600px;
+    height: 70px;
+    left: 1210px;
+    top: 1170px;
+    background: #F0E9E9;
+    border-radius: 20px;
+}
+
+.informacoesPIX {
+    position:absolute;
+    margin-left: 60px;
+    top: 135px;
+}
+
+.textoPrincipalPIX {
+    font-weight: bold;
+    font-size: 32px;
+    font-family: "Fira Sans",sans-serif;
+}
+
+.textoPIX {
+    font-size: 20px;
+    font-family: "Fira Sans",sans-serif;
+}
+
+.produtosComprar {
+    position: absolute;
+	width: 100%;
+	height: 400px;
+	top: 480px;
+}
+
+.produto1 {
+    position: absolute;
+	width: 200px;
+	height: 300px;
+	left: 60px;
+	top: 80px;
+	background: #F0E9E9;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+.produto2 {
+    position: absolute;
+	width: 200px;
+	height: 300px;
+	left: 350px;
+	top: 80px;
+	background: #F0E9E9;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.produto3 {
+    position: absolute;
+	width: 200px;
+	height: 300px;
+	left: 640px;
+	top: 80px;
+	background: #F0E9E9;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.produto4 {
+    position: absolute;
+	width: 200px;
+	height: 300px;
+	left: 930px;
+	top: 80px;
+	background: #F0E9E9;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.produtosComprar2 {
+    position: absolute;
+	width: 100%;
+	height: 400px;
+	top: 500px;
+}
+
+.produto5 {
+    position: absolute;
+	width: 200px;
+	height: 300px;
+	left: 60px;
+	top: 450px;
+	background: #F0E9E9;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.produto6 {
+    position: absolute;
+	width: 200px;
+	height: 300px;
+	left: 350px;
+	top: 450px;
+	background: #F0E9E9;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.produto7 {
+    position: absolute;
+	width: 200px;
+	height: 300px;
+	left: 640px;
+	top: 450px;
+	background: #F0E9E9;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.produto8 {
+    position: absolute;
+	width: 200px;
+	height: 300px;
+	left: 930px;
+	top: 450px;
+	background: #F0E9E9;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.produtosComprar3 {
+    position: absolute;
+	width: 100%;
+	height: 400px;
+	top: 520px;
+}
+
+.produto9 {
+    position: absolute;
+	width: 200px;
+	height: 300px;
+	left: 60px;
+	top: 820px;
+	background: #F0E9E9;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.produto10 {
+    position: absolute;
+	width: 200px;
+	height: 300px;
+	left: 350px;
+	top: 820px;
+	background: #F0E9E9;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.produto11 {
+    position: absolute;
+	width: 200px;
+	height: 300px;
+	left: 640px;
+	top: 820px;
+	background: #F0E9E9;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.produto12 {
+    position: absolute;
+	width: 200px;
+	height: 300px;
+	left: 930px;
+	top: 820px;
+	background: #F0E9E9;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+.produto1:hover{
+	transform:scale(1.1);
+	box-shadow: 10px 10px 10px rgba(10, 10, 10,10);
+}
+.produto2:hover{
+	transform:scale(1.1);
+	box-shadow: 10px 10px 10px rgba(10, 10, 10,10);
+}
+.produto3:hover{
+	transform:scale(1.1);
+	box-shadow: 10px 10px 10px rgba(10, 10, 10,10);
+}
+.produto4:hover{
+	transform:scale(1.1);
+	box-shadow: 10px 10px 10px rgba(10, 10, 10,10);
+
+}
+.produto5:hover{
+	transform:scale(1.1);
+	box-shadow: 10px 10px 10px rgba(10, 10, 10,10);
+}
+.produto6:hover{
+	transform:scale(1.1);
+	box-shadow: 10px 10px 10px rgba(10, 10, 10,10);
+}
+.produto7:hover{
+	transform:scale(1.1);
+	box-shadow: 10px 10px 10px rgba(10, 10, 10,10);
+}
+.produto8:hover{
+	transform:scale(1.1);
+	box-shadow: 10px 10px 10px rgba(10, 10, 10,10);
+}
+.produto9:hover{
+	transform:scale(1.1);
+	box-shadow: 10px 10px 10px rgba(10, 10, 10,10);
+}
+.produto10:hover{
+	transform:scale(1.1);
+	box-shadow: 10px 10px 10px rgba(10, 10, 10,10);
+}
+.produto11:hover{
+	transform:scale(1.1);
+	box-shadow: 10px 10px 10px rgba(10, 10, 10,10);
+}
+.produto12:hover{
+	transform:scale(1.1);
+	box-shadow: 10px 10px 10px rgba(10, 10, 10,10);
+}
+
+
+.camisetaEsportiva, .camisetaEsportiva2, .camisetaEsportiva3, .camisetaEsportiva4,
+.camisetaEsportiva5, .camisetaEsportiva6, .camisetaEsportiva7, .camisetaEsportiva8,
+.camisetaEsportiva9, .camisetaEsportiva10, .camisetaEsportiva11, .camisetaEsportiva12 {
+    width: 170px;
+    height: 150px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.retanguloVerde {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    top: 185px;
+    background: #6BF0D8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textoRetanguloVerde {
+    font-style: normal;
+    font-size: 20px;
+    line-height: 16px;
+    text-align: center;
+    justify-content: center;
+    font-family: "Fira Sans",sans-serif;
+    font-weight: bold;
+}
+
+.valorAntigo {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: "Fira Sans",sans-serif;
+    text-decoration: line-through;
+}
+
+.valorComDesconto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Fira Sans",sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.valorParcelamento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Fira Sans",sans-serif;
+}
+

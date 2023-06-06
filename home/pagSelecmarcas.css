@@ -1,0 +1,662 @@
+
+body, html {
+	position: relative;
+	width: 100%;
+	margin: 0px;
+
+	background: #FFFFFF;
+
+}
+#cabecalho{
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	background: #BBFFB0;	
+}
+
+#logo{
+	position: absolute;
+	width: 135px;
+	height: 135px;
+	left: 43px;
+	top: -12px;
+
+	background: url(logohome.png);
+}
+#goLogin{
+	position: absolute;
+	width: 60px;
+	height: 65px;
+	left: 1700px;
+	top: 25px;
+
+	background: url(login.png);
+		
+	
+}
+#goCarrinho{
+	position: absolute;
+	width: 60px;
+	height: 65px;
+	left: 1620px;
+	top: 25px;
+
+	background: url(carrinho.png);
+				
+}
+#pesquisar{
+	position: absolute;
+	width: 640px;
+	height: 28px;
+	left: 620px;
+	top: 36px;
+	margin: center;
+
+	background: #FFFFFF;
+	border-radius: 16px;
+		
+}
+.goPesquisa{
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 1240px;
+	top: 42px;
+
+	background: url(lupa.png);
+	
+	
+}
+#menu{
+	position: absolute;
+	width: 100%;
+	height: 71px;
+	left: 0px;
+	top: 100px ;
+	display: grid;
+	align-items: center;
+
+	background: #F0E9E9;
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+}
+.botao1{
+	
+	position: absolute;
+	width: 449px;
+	height: 53px;
+	left: 10px;
+	top: 9px;
+
+	display; inline-grid;
+	
+
+	background: #BBFFB0;
+	border-color: #BBFFB0;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	
+	font-family: 'Fira Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+
+	color: #000000;
+
+}
+.botao2{
+	
+	position: absolute;
+	width: 449px;
+	height: 53px;
+	left: 469px;
+	top: 9px;
+	display; inline-grid;
+		
+
+	background: #BBFFB0;
+	border-color: #BBFFB0;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	
+	font-family: 'Fira Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+
+	color: #000000;
+
+}
+.botao3{
+		
+	position: absolute;
+	width: 449px;
+	height: 53px;
+	left: 928px;
+	top: 9px;
+	display; inline-grid;
+	background: #BBFFB0;
+	border-color: #BBFFB0;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	
+	font-family: 'Fira Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+
+	color: #000000;
+
+}
+.botao4{
+	
+	position: absolute;
+	width: 449px;
+	height: 53px;
+	left: 1387px;
+	top: 9px;
+	display: inline-grid;
+	background: #BBFFB0;
+	border-color: #BBFFB0;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	
+	font-family: 'Fira Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+
+	color: #000000;
+
+}
+#rodape{
+	position: absolute;
+	width: 100%;
+	height: 180px;
+	left: 0px;
+	top: 1612px;
+
+	background: #BBFFB0;
+
+	
+	
+	
+}
+.span1{
+	position: absolute;
+	width: 129px;
+	height: 37px;
+	left: 56px;
+	top: 9px;
+
+	font-family: 'Fira Sans';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 20px;
+	line-height: 24px;
+
+	color: #000000;
+
+
+}
+.span2{
+	position: absolute;
+width: 129px;
+height: 37px;
+left: 273px;
+top: 6px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+	
+}
+.span3{
+	position: absolute;
+width: 256px;
+height: 37px;
+left: 459px;
+top: 9px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+}
+.span4{
+	position: absolute;
+width: 170px;
+height: 37px;
+left: 497px;
+top: 44px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 900;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+}
+#caixa{
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	left: 0px;
+	top: 524px;
+
+	background: #F0E9E9;
+
+	
+}
+.span5{
+	position: absolute;
+	width: 336px;
+	height: 45px;
+	left: 33px;
+	top: 13px;
+
+	font-family: 'Fira Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 36px;
+
+	color: #000000;
+}
+.span6{
+	position: absolute;
+width: 218px;
+height: 37px;
+left: 56px;
+top: 37px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+}
+.span7{
+	position: absolute;
+width: 177px;
+height: 37px;
+left: 56px;
+top: 63px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+}
+.span8{
+	position: absolute;
+width: 177px;
+height: 37px;
+left: 57px;
+top: 90px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+}
+.span9{
+	position: absolute;
+width: 177px;
+height: 37px;
+left: 56px;
+top: 119px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+}
+.span10{
+	position: absolute;
+width: 177px;
+height: 37px;
+left: 57px;
+top: 146px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+}
+.span11{
+	position: absolute;
+width: 218px;
+height: 37px;
+left: 256px;
+top: 40px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+}
+.span12{
+	position: absolute;
+width: 218px;
+height: 37px;
+left: 257px;
+top: 64px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;d
+
+}
+.instagram{
+	position: absolute;
+width: 24px;
+height: 24px;
+left: 1654px;
+top: 44px;
+
+background: url(instagram.png);
+	
+}
+.facebook{
+	position: absolute;
+width: 24px;
+height: 24px;
+left: 1606px;
+top: 44px;
+
+background: url(facebook.png);
+	
+}
+.twitter{
+	position: absolute;
+width: 24px;
+height: 24px;
+left: 1702px;
+top: 44px;
+
+background: url(twitter.png);
+	
+}
+.youtube{
+	position: absolute;
+width: 24px;
+height: 24px;
+left: 1750px;
+top: 44px;
+
+background: url(youtube.png)
+	
+	
+}
+
+.galeriaProdutos{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	left: 0px;
+	top: 200px;
+
+}
+.spanGaleria{
+	position: absolute;
+	width: 244px;
+	height: 45px;
+	left: 40px;
+	top: 1px;
+
+	font-family: 'Fira Sans';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 25px;
+	line-height: 36px;
+
+	color: #000000;
+}
+.frame1{
+	position: absolute;
+	width: 200px;
+	height: 300px;
+	left: 220px;
+	top: 80px;
+
+	background: #F0E9E9;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+	
+}
+.frame2{
+	position: absolute;
+	width: 200px;
+	height: 300px;
+	left: 620px;
+	top: 80px;
+
+	background: #F0E9E9;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+
+}
+.frame3{
+	position: absolute;
+	width: 200px;
+	height: 300px;
+	left: 1010px;
+	top: 80px;
+
+	background: #F0E9E9;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+.frame4{
+	position: absolute;
+	width: 200px;
+	height: 300px;
+	left: 1400px;
+	top: 80px;
+
+	background: #F0E9E9;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+	
+	
+}
+
+.frame5{
+	position: absolute;
+width: 200px;
+height: 300px;
+left: 220px;
+top: 530px;
+
+background: #F0E9E9;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+.frame6{
+	position: absolute;
+width: 200px;
+height: 300px;
+left: 620px;
+top: 530px;
+
+background: #F0E9E9;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+
+
+	
+}
+
+.frame7{
+	position: absolute;
+width: 200px;
+height: 300px;
+left: 1010px;
+top: 530px;
+
+background: #F0E9E9;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.frame8{
+	position: absolute;
+width: 200px;
+height: 300px;
+left: 1400px;
+top: 530px;
+
+background: #F0E9E9;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+
+	
+}
+.frame9{
+	position: absolute;
+width: 200px;
+height: 300px;
+left: 220px;
+top: 1000px;
+
+background: #F0E9E9;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+
+	
+}
+.frame10{
+	position: absolute;
+width: 200px;
+height: 300px;
+left: 620px;
+top: 1000px;
+
+background: #F0E9E9;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+
+	
+}
+.frame11{
+	position: absolute;
+width: 200px;
+height: 300px;
+left: 1010px;
+top: 1000px;
+
+background: #F0E9E9;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+
+	
+}
+.frame12{
+	position: absolute;
+width: 200px;
+height: 300px;
+left: 1400px;
+top: 1000px;
+
+background: #F0E9E9;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+
+	
+}
+
+
+.frame1:hover{
+	transform:scale(1.1);
+	box-shadow: 10px 10px 10px rgba(10, 10, 10,10);
+	
+}
+.frame2:hover{
+	transform:scale(1.1);
+	box-shadow: 10px 10px 10px rgba(10, 10, 10,10);
+	
+}
+.frame3:hover{
+	transform:scale(1.1);
+	box-shadow: 10px 10px 10px rgba(10, 10, 10,10);
+	
+}
+.frame4:hover{
+	transform:scale(1.1);
+	box-shadow: 10px 10px 10px rgba(10, 10, 10,10);
+	
+}
+.frame5:hover{
+	transform:scale(1.1);
+	box-shadow: 10px 10px 10px rgba(10, 10, 10,10);
+	
+}
+.frame6:hover{
+	transform:scale(1.1);
+	box-shadow: 10px 10px 10px rgba(10, 10, 10,10);
+	
+}
+.frame7:hover{
+	transform:scale(1.1);
+	box-shadow: 10px 10px 10px rgba(10, 10, 10,10);
+	
+}
+.frame8:hover{
+	transform:scale(1.1);
+	box-shadow: 10px 10px 10px rgba(10, 10, 10,10);
+	
+}
+.frame9:hover{
+	transform:scale(1.1);
+	box-shadow: 10px 10px 10px rgba(10, 10, 10,10);
+	
+}
+.frame10:hover{
+	transform:scale(1.1);
+	box-shadow: 10px 10px 10px rgba(10, 10, 10,10);
+	
+}
+.frame11:hover{
+	transform:scale(1.1);
+	box-shadow: 10px 10px 10px rgba(10, 10, 10,10);
+	
+}
+.frame12:hover{
+	transform:scale(1.1);
+	box-shadow: 10px 10px 10px rgba(10, 10, 10,10);
+	
+}
+
+
+

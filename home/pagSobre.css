@@ -1,0 +1,162 @@
+body, html {
+	position: relative;
+	width: 100%;
+	margin: 0;
+    padding: 0;
+	background: #FFFFFF;
+
+}
+
+#nossaHistoria {
+    position: absolute;
+    width: 1750px;
+    height: 300px;
+    left: 69px;
+    top: 203px;
+    background: #F0E9E9;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#missao {
+    position: absolute;
+    width: 1750px;
+    height: 170px;
+    left: 67px;
+    top: 535px;
+    background: #F0E9E9;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#visao {
+    position: absolute;
+    width: 1750px;
+    height: 170px;
+    left: 69px;
+    top: 737px;
+    background: #F0E9E9;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#valores {
+    position: absolute;
+    width: 1750px;
+    height: 400px;
+    left: 67px;
+    top: 939px;
+    background: #F0E9E9;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#principios{
+    position: absolute;
+    width: 1750px;
+    height: 480px;
+    left: 67px;
+    top: 1370px;
+    background: #F0E9E9;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#rodape {
+    position: absolute;
+	width: 100%;
+	height: 200px;
+	left: 0px;
+	top: 1900px;
+	background: #BBFFB0;
+}
+
+.historia {
+    font-weight: bold;
+    font-size:25px;
+    font-family: 'Fira Sans';
+    text-align: justify;
+    margin-left: 50px;
+    line-height: 2.2;
+    
+}
+
+.textohistoria {
+    font-size:25px;
+    font-family: 'Fira Sans';
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: block;
+}
+
+.mission {
+    font-weight: bold;
+    font-size:25px;
+    font-family: 'Fira Sans';
+    text-align: justify;
+    margin-left: 50px;
+    line-height: 2.2;
+}
+
+.textomission {
+    font-size:25px;
+    font-family: 'Fira Sans';
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: block;
+}
+
+.vision {
+    font-weight: bold;
+    font-size:25px;
+    font-family: 'Fira Sans';
+    text-align: justify;
+    margin-left: 50px;
+    line-height: 2.2;
+}
+
+.textovision {
+    font-size:25px;
+    font-family: 'Fira Sans';
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: block;
+}
+
+.value {
+    font-weight: bold;
+    font-size:25px;
+    font-family: 'Fira Sans';
+    margin-left: 50px;
+    line-height: 2.2;
+}
+
+.textovalue {
+    font-size:25px;
+    font-family: 'Fira Sans';
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: block;
+}
+
+.principio {
+    font-weight: bold;
+    font-size:25px;
+    font-family: 'Fira Sans';
+    text-align: justify;
+    margin-left: 50px;
+    line-height: 3;
+}
+
+.textoprincipio {
+    font-size:25px;
+    font-family: 'Fira Sans';
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: block;
+}
